@@ -34,7 +34,7 @@ function draw() {
             textAlign(CENTER);
             textSize(25);
             text("click to start", 350, 400);
-            stage = 5;
+            stage = 1;
             initField();
             if (mouseIsPressed) {
                 mouseIsPressed = false;
