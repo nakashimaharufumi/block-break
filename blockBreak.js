@@ -68,6 +68,9 @@ function draw() {
             text("GAME CLEAR", 350, 300);
             if (mouseIsPressed) {
                 mouseIsPressed = false;
+                block = [];
+                block_x = [];
+                block_y = [];
                 cs = 0;
             }
             break;
@@ -77,6 +80,9 @@ function draw() {
             text("GAME OVER", 350, 300);
             if (mouseIsPressed) {
                 mouseIsPressed = false;
+                block = [];
+                block_x = [];
+                block_y = [];
                 cs = 0;
             }
             break;
